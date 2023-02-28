@@ -1,0 +1,23 @@
+Hay muchas bibliotecas para hacer test unitarios, parac ada lenguaje de programación. Elegí la siguiente porque es compatible con Linux/Windows/MacOS/Repl.it y no hay que instalar ninguna biblioteca. Solo hay que bajar dos archivos al directorio donde estemos trabajando:
+  - catch_amalgamated.hpp
+  - catch_amalgamated.cpp
+
+La documentación está en:
+https://github.com/catchorg/Catch2/blob/devel/docs/tutorial.md#top
+https://github.com/catchorg/Catch2/blob/devel/docs/Readme.md#top
+Aunque no hace falta leerla para comenzar. Basta entender lo que se hace en alguno de los dos ejemplos (son dos formas de hacer lo mismo):
+  - Test_Login1.cpp
+  - Test_Login2.cpp
+
+
+Antes de compilar hay que comentar TODO lo que haya dentro del archivo main.cpp
+Y después ya se puede compilar, como siempre:
+c++ *.cpp -o main
+
+Por último, se ejecutan los test:
+./main
+
+El color VERDE es que se pasó el test; el color ROJO indica que no se pasó algún test.
+
+
+
